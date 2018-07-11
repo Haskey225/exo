@@ -16,6 +16,7 @@
 	// Constantes
 		const ERREUR_CLIENTS = 'le client n\'existe pas dans la base de donnée';
 		const CREDIT_ISSUFISANT = 'Votre solde est insufisant, Merci de le recharger';
+		const ACCESS = 'Vous n\'avez pas le droit d\'effectuer cette action';
 	// Construct of programme.
 		function __construct(array $data_tab){
 			$this->hydraty($data_tab);
