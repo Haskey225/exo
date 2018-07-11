@@ -4,6 +4,7 @@
 		private $_db;
 		const EMAIL_ERROR = 'Ce mail est déjà utilisé';
 		const RECHARGE_MSG = 'Le crédit à bien ete acheter';
+		const DELETE_MSG = 'Cet utilisateur a été supprimé avec succès';
 		public function __construct(PDO $db)
 		{
 			if (isset($db)) {
