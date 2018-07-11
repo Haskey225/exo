@@ -93,7 +93,11 @@
 			echo $client->getClientid();
 		}
 		public function isClient(Client $client){
-			//non implementé
+			if (is_string($client->getName()) and !is_null($client->getId())) {
+				return true;
+			}else{
+				return false;
+			}
 		}
 	}
 ?>
