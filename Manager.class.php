@@ -92,5 +92,8 @@
 			}
 			echo $client->getClientid();
 		}
+		public function isClient(Client $client){
+			//non implementé
+		}
 	}
 ?>
