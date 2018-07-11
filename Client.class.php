@@ -197,5 +197,8 @@
 			}
 		}
 		// public function commend()
+		public function panier(){
+			
+		}
 	}
 ?>
